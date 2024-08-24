@@ -1,13 +1,7 @@
-import React from 'react'
- 
-const HomePage = async() => {
- 
-  return (
-    <div>HomePage</div>
-  )
-}
+import React from "react";
 
-export default HomePage
+const HomePage = async () => {
+  return <div>HomePage{React.version}</div>;
+};
 
- 
- 
+export default HomePage;
